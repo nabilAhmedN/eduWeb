@@ -67,24 +67,24 @@
 		</div>
 	</div>
 
-	<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 ml-[65px] mb-[25px] mr-[65px]">
+	<div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-4 gap-0 ml-[65px] mb-[25px] mr-[65px]">
 		<div class="bg-[#EDD7CF] col-span-2 rounded-lg">
 			<h1 class="lg:font-semibold lg:text-[30px] pt-5 pl-6 pb-5">Latest Reads</h1>
 
 			<div class="bg-[#FBFAF5] ml-6 mb-5 mr-6 rounded-lg flex flex-row">
-				<img class="w-[150px] p-2" src={compressed1} alt="" />
-				<h1 class="pt-6 font-medium">Most Popular Olympiads in Bangladesh</h1>
+				<img class="lg:w-[150px] w-[110px] p-2" src={compressed1} alt="" />
+				<h1 class="lg:pt-6 pt-2 font-medium">Most Popular Olympiads in Bangladesh</h1>
 			</div>
 			<div class="bg-[#FBFAF5] ml-6 mb-5 mr-6 rounded-lg flex flex-row">
-				<img class="w-[150px] p-2" src={compressed2} alt="" />
-				<h1 class="pt-6 font-medium">
+				<img class="lg:w-[150px] w-[110px] md:h-[110px] p-2" src={compressed2} alt="" />
+				<h1 class="lg:pt-6 pt-2 font-medium">
 					President asks UGC to hold single admission test at all public universities for 2023-24
 					session
 				</h1>
 			</div>
             <Icon icon="material-symbols:keyboard-arrow-down" width="30" height="30" class="lg:ml-[50%] ml-32"/>
 		</div>
-		<div class="bg-[#EDD7CF] rounded-lg">
+		<div class="bg-[#EDD7CF] rounded-lg lg:mt-0 mt-3">
 			<h1 class="font-bold text-[25px] text-center pt-5">Free Mock Test</h1>
 			<p class="font-light text-[15px] text-center pb-4">powered by StudyAbroadSponsor</p>
 
